@@ -1,0 +1,73 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(186, 185, 189);
+}
+.wrapper {
+    width: 400px;
+    /* border: 3px solid black; */
+    background-color: black;
+    color: #ffffff;
+  
+}
+.screen{
+    width: 400px;
+    text-align: end;
+    padding: 20px 5px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: rgb(255, 255, 255);
+
+}
+.calc-row{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+.calc-btn{
+    background-color: #d8d9db;
+    color: black;
+    border: none;
+    font-size: 40px;
+    height: 100px;
+    flex-basis: 24.5%;
+}
+.calc-btn:hover{
+    background-color: #ebebeb;
+}
+.calc-btn:active{
+    background-color: #bbbcbe;
+}
+.double{
+    flex-basis: 49.7%;
+}
+.triple{
+    flex-basis: 74.8%;
+}
+.calc-btn:last-child{
+    background-color: #df974c;
+    color: white;
+}
+.calc-btn:last-child:hover{
+    background-color: #dfb07e;
+}
+.calc-btn:last-child:active{
+    background-color: #dd8d37;
+}
+
+.heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
